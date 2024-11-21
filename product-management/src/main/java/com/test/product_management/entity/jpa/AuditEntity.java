@@ -32,4 +32,6 @@ public class AuditEntity implements Serializable {
     protected Date modifiedDate;
     @Column(name = "isDeleted", columnDefinition = "boolean default false")
     protected Boolean isDeleted;
+    @Column(name = "isActive", columnDefinition = "boolean default false")
+    protected Boolean isActive;
 }
